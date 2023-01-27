@@ -25,6 +25,10 @@ nav{
     margin: auto;
 }
 
+.menu{
+    display: flex;
+}
+
 .ad{
     width: 500px;
     height: 150px;
