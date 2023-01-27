@@ -39,6 +39,10 @@ main{
     flex-direction: row-reverse;
 }
 
+main img{
+    width: 500px;
+}
+
 aside{
     margin-top: 250px;
 }
