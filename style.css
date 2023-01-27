@@ -21,3 +21,10 @@ nav{
     
     margin: auto;
 }
+
+.ad{
+    width: 500px;
+    height: 150px;
+    margin: 50px auto;
+    background-color: gray;
+}
