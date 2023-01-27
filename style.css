@@ -83,3 +83,7 @@ address{
     gap: 10px;
     border: 2px solid whitesmoke;
 }
+
+address button{
+    margin-left: 40%;
+}
