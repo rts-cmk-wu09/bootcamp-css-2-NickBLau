@@ -49,6 +49,7 @@ section article aside{
 section article p{
     width: 500px;
     margin: auto;
+    justify-content: center;
 }
 
 .flex{display: flex;}
@@ -60,4 +61,8 @@ section article p{
 
 .aside-articles{
     margin-left: 20%;
+}
+
+.main-paragraph{
+    display: flex;
 }
