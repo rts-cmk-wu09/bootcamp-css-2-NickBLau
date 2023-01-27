@@ -50,3 +50,5 @@ section article p{
     width: 500px;
     margin: auto;
 }
+
+.flex{display: flex;}
