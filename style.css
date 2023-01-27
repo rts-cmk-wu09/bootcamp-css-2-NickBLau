@@ -57,3 +57,7 @@ section article p{
     display: flex;
     flex-direction: column;
 }
+
+.aside-articles{
+    margin-left: 20%;
+}
