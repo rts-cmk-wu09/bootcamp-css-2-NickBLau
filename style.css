@@ -71,9 +71,16 @@ section article p{
     background-color: gray;
     width: 1510px;
     height: auto;
+    text-align: center;
 
     
     
+}
+
+.links-Eavis ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 address{
