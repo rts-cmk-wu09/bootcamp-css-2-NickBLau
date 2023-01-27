@@ -66,3 +66,24 @@ section article p{
 .main-paragraph{
     display: flex;
 }
+
+.links-Eavis{
+    background-color: gray;
+    width: 1510px;
+    height: auto;
+
+    
+    
+}
+
+address{
+    width: 500px;
+    margin: auto;
+    background-color: gray;
+    gap: 10px;
+    border: 2px solid whitesmoke;
+}
+
+address button{
+    margin-left: 40%;
+}
