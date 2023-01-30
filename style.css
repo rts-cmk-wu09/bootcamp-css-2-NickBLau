@@ -94,7 +94,7 @@ aside{
     position: absolute;
     z-index: 10;
     left: 180px;
-    top: 820px;
+    top: 750px;
 }
 
 
@@ -148,7 +148,35 @@ aside{
 
 .profil{
     width: 50px;
+    display: inline-block
 }
+
+.z-index i:last-of-type{
+    float: left;
+}
+
+
+.z-index i:nth-of-type(1){
+    background-color: gray;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;
+}
+.z-index i:nth-of-type(2){
+    background-color: cyan;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;
+}
+.z-index i:nth-of-type(3){
+    background-color: gray;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;}
+
 
 section article aside{
     width: 300px;
