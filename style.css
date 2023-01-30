@@ -118,8 +118,9 @@ aside{
     font-weight: bolder;
     font-size: larger;
     height: 100px;
-    margin-top: -25px;
-    padding: 80px;
+    margin-top: -55px;
+    padding: 50px;
+    opacity: 0.8;
 }
 
 .subscription p{
@@ -138,7 +139,7 @@ aside{
 .subscription-button{
     position: absolute;
     left: 47%;
-    top: 178%;
+    top: 180%;
 }
 
 .avis_img{
