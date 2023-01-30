@@ -62,14 +62,47 @@ main img{
 
 aside{
     margin-top: 250px;
-    display: grid;
+    display: inline-block
 }
+
+.flex section{
+    margin-left: 5%;
+}
+
+.z-index{
+    position: absolute;
+    z-index: 10;
+    left: 200px;
+    top: 700px;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+    
 
 .subsciption{
     background-color: whitesmoke;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
+    height: 100px;
+    margin-top: -25px;
+    z-index: 10;
+}
+
+.subsciption p{
+    padding-top: 40px;
+}
+
+.subsciption button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
 }
 
 .avis_img{
