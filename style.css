@@ -59,6 +59,7 @@ header{
 }
 
 
+
 main{
     margin: auto;
     width: 50%;
@@ -111,7 +112,7 @@ aside{
     width: 50%;
 }
 
-.subsciption{
+.subscription{
     background-color: whitesmoke;
     text-align: center;
     font-weight: bolder;
@@ -121,17 +122,23 @@ aside{
     padding: 80px;
 }
 
-.subsciption p{
+.subscription p{
     padding-top: 40px;
 }
 
-.subsciption button{
+.subscription button{
     background-color: red;
     color: white;
     padding: 5px;
     border: none;
     font-size: larger;
     border-radius: 5px;
+}
+
+.subscription-button{
+    position: absolute;
+    left: 47%;
+    top: 178%;
 }
 
 .avis_img{
