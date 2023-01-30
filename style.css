@@ -205,15 +205,28 @@ section article p{
 } */
 
 address{
-    width: 500px;
-    margin: auto;
+    width: 1515px;
+    text-align: center;
+    margin: 0 auto 5px;
+
     background-color: lightgray;
     gap: 10px;
     border: 2px solid whitesmoke;
 }
 
+.white_space{
+    white-space:break-spaces;
+}
+
+address p{
+    white-space: break-spaces;
+}
+
 address button{
-    margin-left: 40%;
+font-size: large;
+padding: 10px;
+color: gray;
+font-weight: bold;
 }
 
 #search{
