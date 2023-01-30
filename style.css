@@ -62,6 +62,18 @@ main img{
 
 aside{
     margin-top: 250px;
+    display: grid;
+}
+
+.subsciption{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.main-paragraph{
+
 }
 
 .profil{
@@ -95,7 +107,7 @@ section article p{
 }
 
 .links-E_avis{
-    background-color: gray;
+    background-color: lightgray;
     width: 1510px;
     height: auto;
     display: flex;
@@ -121,7 +133,7 @@ section article p{
 address{
     width: 500px;
     margin: auto;
-    background-color: gray;
+    background-color: lightgray;
     gap: 10px;
     border: 2px solid whitesmoke;
 }
