@@ -27,6 +27,8 @@ header{
 
 .menu{
     display: flex;
+    width: 100px;
+    justify-content: space-between;
 }
 
 .nav-links{
@@ -36,6 +38,12 @@ header{
     border-top: 3px solid gainsboro;
     border-bottom: 3px solid gainsboro;
 
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 .nav-links a:last-of-type{
