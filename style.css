@@ -124,6 +124,16 @@ section article p{
     
 }
 
+.comments{
+    border-top: lightgray 2px solid;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.anbefal{
+    margin-top: 10px;
+}
+
 /* .links-Eavis ul{
     display: flex;
     flex-direction: column;
