@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>HTML bootcamp - 2</title>
 </head>
 <body>
     <header>
-        <div>
-        <input type="search" name="search" id="search">
-        <img src="magnifying_glass" alt="search icon">
+        <div class="menu">
+<i class="fa-solid fa-bars"></i>
+<p>menu</p>
+<i class="fa-solid fa-magnifying-glass"></i>
     </div>
 
-        <img src="logo.jpg" alt="logo" >
+        <img src="information.png" alt="logo" >
     <div>
-        <button>log in</button>
-        <img src="log_in_icon" alt="log in">
+        <button class="log-in">log in</button>
+        <i class="fa-solid fa-user"></i>
     </div>
 
     </header>
 
     <nav>
         <ul>
-            <li>
-                <a href="index.html">Lorem, ipsum dolor.</a>
-                <a href="index.html">Lorem, ipsum dolor.</a>
-                <a href="index.html">Lorem, ipsum dolor.</a>
+            <li class="nav-links">
+                <a href="index.html">nyhedsbreve</a>
+                <a href="index.html">podcast</a>
+                <a href="index.html">køb abonement</a>
             </li>
         </ul>
     </nav>
@@ -41,52 +44,58 @@
             <p>
                 abonement læsetid: 7min
             </p>
-            <h1>Gas er et godt Lorem ipsum dolor sit amet consectetur. </h1>
+            <h1>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque veritatis ratione iure non vitae consectetur excepturi fugit voluptate impedit voluptas! Nobis, quis! Eius sapiente laborum rem, ea aspernatur nulla minus?
+                Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men i virkeligheden er det omvendt, mener firmaerne bag rørledningen: Det er EU, der bruger gassen som våben over for Putin. Information har været på charmetur med den russiske gas' europæiske venner
             </p>
-            <img src="article_main_img" alt="article img">
+            <img src="Skærmbillede 2023-01-27 125504.png" alt="article img">
         </article>
-        <aside>
+        <aside class="main_aside">
             <p>
-               Rusland vil ikke bruge Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus quod eos sed eius vitae.
+                Rusland vil ikke bruge gasrørledningen, Nord Stream 2, som politisk våben, lyder det fra folkene bag projektet. Rørledningen koster 70 mia. kr. og vil sende 55 mia. kubikmeter gas ind i Europa om året.
             </p>
-            <img src="camera_img" alt=" ">
+            <i class="fa-solid fa-camera"></i>
             <p>Peter nygaard Christensen</p>
         </aside>
     </main>
 
     <section>
-        <article>
-            <aside>
-                <h4>
+        <article class="">
+            <aside class="z-index" class="flex">
+                <h4 class="udland">
                     udland
                 </h4>
-                <img src="Jakob_stein_img" alt=" ">
-                <p>
+                <img class="profil" src="jacob.png" alt=" ">
+                <p class="jakob">
                     Jakob Stein
                 </p>
-                <img src="Email_img" alt=" ">
-                <p>Email</p>
-                <img src="twitter_img" alt=" ">
-                <p>Twitter</p>
-                <p>Peter nygaard Christensen</p>
-                <img src="email_img" alt=" ">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="jakob-email">Email</p>
+                <i class="fa-brands fa-twitter"></i>
+                <p class="twitter">Twitter</p>
+                <p >Peter nygaard Christensen</p>
+                <i class="fa-solid fa-envelope"></i>
                 <p>Email</p>
             </aside>
-            <p class="main-paragraph">7.maj 2018</p>
-            <p class="main-paragraph">>>jeg tænker, at vi lige taler Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam ipsa maxime autem laborum, tenetur, temporibus sit assumenda repellat corporis quaerat blanditiis asperiores omnis voluptatem, repellendus totam? Veniam mollitia aperiam expedita?</p>
-        <img src="facebook_img" alt="facebook">
-        <img src="twitter_img" alt="twitter">
-        <img src="email_img" alt="Email">
+            <p class="main" class="main-paragraph">7.maj 2018</p>
+            <p class="white_space" class="main-paragraph">»Jeg tænker, at vi lige taler os varme sammen, før vi begynder på interviewet,« siger Jens Müller, talsperson for det russiske gasfirma Nord Stream 2 AG. Vi sidder en gruppe journalister i en bus på vej til en gasterminal i Rotterdam, inviteret af folkene bag den kommende russiske gasrørledning, Nord Stream 2 (NS2), der efter planen skal krydse dansk farvand.
+
+På bussens bagsæde udvikler den 'uformelle dialog' sig hurtigt til et 20 minutters forsvar for den
+12.000 kilometer lange rørledning, der sidste år blev viklet ind i det stadigt mere </p>
+                <i id="facebook" class="fa-brands fa-facebook"></i>
+                <i id="twitter" class="fa-brands fa-twitter"></i>
+                <i id="email" class="fa-solid fa-at"></i>
         </article>
     </section>
-    <div><p>
-        Vores abonnenter kalder os Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, nemo!
+    <div class="subscription"><p>
+        Vores abonnenter kalder os kritisk, seriøs og troværdig. Se om du er enig...
+        <button class="subscription-button">klik her</button>
+        <p>allerede abonnent?</p>
+        <a href="index.html">log ind her</a>
     </p></div>
 
-    <section class="flex">
-        <h3>
+    <section id="read" class="flex">
+        <h3 class="red">
             fik du læst?
         </h3>
         <section>
@@ -146,46 +155,46 @@
 </section>
 
 <section>
-    <img src="house_img" alt=" ">
+    <i class="fa-sharp fa-solid fa-house"></i>
     <a href="index.html">forsiden lige nu</a>
 </section>
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
-    <img src="article_picture_img" alt="article_img">
+    <img src="https://picsum.photos/640/360" alt="article_img">
     <p>gas er et godt politsk våben, det er bare ikke putin der bruger det</p>
 </article>
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
-    <img src="article_picture_img" alt="article_img">
+    <img src="https://picsum.photos/640/361" alt="article_img">
     <p>Mand dig op kvinde!</p>
 </article>
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
 
     <p>Peter Madsen anker kun længden af sin straf</p>
     <p>ankesagen mod peter madsen kommer kun til at handle om hvilken straf han skal have</p>
 </article>
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
-    <img src="article_picture_img" alt="article_img">
+    <img src="https://picsum.photos/640/362" alt="article_img">
     <p>report fra norsk regeringskommision skaber tvilv om lovligheden af FE's masseovervågning</p>
 </article>
 
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
 
     <p>Sådan håndteres offenlige arbejdskonflikter i sverige og norge </p>
     <p>den ellers højtbesunde danske model skal revideres hvis det står til socialdemokraties formand Mette Frerdiksen Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut unde dolorem provident consequuntur repellat amet nam ullam deserunt iure, fugit quas vel voluptate?</p>
 </article>
 
-<article>
+<article class="articles">
     <h4>abonement</h4>
-    <img src="article_picture_img" alt="article_img">
+    <img src="https://picsum.photos/640/363" alt="article_img">
     <p>440.000 syrere er vendt tilbage til, selv om krigen forsætter, vi har fulgt en af dem</p>
 </article>
 
@@ -193,19 +202,25 @@
     <h4>anbefallinger </h4>
     <h4>kommenter</h4>
 
-    <article>
-        <img src="profilbilled_img" alt="profilbilled">
+    <article class="comments">
+        <i class="fa-solid fa-user"></i>
         <h5>henrik holm hansen</h5>
         <p>07. maj. 2018 05:56</p>
-        <P>hvis det forholder sig som skrevet står at rusland for mest ud for nordstream 2 forstår jeg slet ikke politiker og måske special EU ikke brtuger Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse delectus non quisquam maiores quod deleniti, dolorem cum itaque officiis placeat quaerat molestias ipsam nulla.</P>
-        <p>anbefal kommentar</p>
+        <P>Hvis det forholder sig som skrevet står at Rusland for mest ud nord stream 2 forstår jeg slet ikke politikerne og måske specielt EU ikke bruger muligheden aktivt til presse endsige fortælle PUTIN at ruslands opførsel i Ukraine ikke kan accepteres kommer der ikke penge i kassen kan oligarkerne ikke fodres !  </P>
+        <p class="anbefal">Anbefal kommentar</p>
     </article>
-    <article>
-        <img src="profilbilled_img" alt="profilbilled">
+    <article class="comments">
+        <i class="fa-solid fa-user"></i>
         <h5>Gert Romme</h5>
         <p>07. maj. 2018 17:05</p>
-        <P>Jeg skal ikke vudere, hvem der eventuelt kan finde på at benytte dette våben , der er lammende for civilsamfundet. men rusland har faktisk brugt dette ¨våben¨Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error similique iure deserunt aliquam nobis beatae neque natus? Nobis tenetur illum impedit sunt unde quas modi, tempore quibusdam eum dolore magnam autem vitae, fugiat odit doloribus molestiae laudantium maxime dignissimos atque ullam quo commodi aperiam. Fugiat ipsa maiores aut vel hic doloremque nesciunt quae aperiam vitae? Nesciunt.</P>
-        <p>anbefal kommentar</p>
+        <P>Jeg skal ikke vurdere, hvem der eventuelt kan finde på at benytte dette våben, der er lammende for civilsamfundet.
+
+            Men Rusland har faktisk brugt dette "våben" mere end en gang. Og de vestlige lande med Forbundsrepublikken i spidsen er blevet ramt mindst 2 gange.
+            
+            Og hver gang har Rusland beklaget, og undskyldt sig med, at man ikke kunne ramme Poland (1 gang) og Ukraina (mindst 1 gang), uden at det påvirkede andre aftagelande. Og mindst en gang mente Rusland, at de vestlige aftagerlande burde straffe??? - Ukraina.
+            
+            I øvrigt så jeg i eftermiddags tidligere SPD-medlem, tidligere Forbundskanzler og tidligere Gerhard Schröder sidde på de fine pladser under Vladimir Putins indsættelses-show. Det var på RT (Russia Today), der er Vladimir Putins personlige propaganda-kanal der også sikrer "det frie ord" i verden. Det så ud til, det var meget vigtigt for Putin og RT, for der var hele tiden fokus på en tidligere Hr. Schröder.</P>
+            <p class="anbefal">Anbefal kommentar</p>
     </article>
 </section>
 
@@ -213,14 +228,16 @@
 
 
 
-<section class="links-Eavis">
+<section class="links-E_avis">
     <h5>
         information som E-avis
     </h5>
-    <p>
-        du kan læse Lorem ipsum dolor sit amet.
+    <p class="white_space"> 
+        Du kan læse information, lige som du vil.
+        På din mobil, tablet eller computer - og helt ude i skoven.
     </p>
-    <ul><li>
+    <ul>
+        <li class="flex-column">
           <a href="index.html">læs e-avis på din computer</a>
     <a href="index.html">download til apple</a>
     <a href="index.html">download til android</a>  
@@ -228,7 +245,7 @@
 
     <h5>Følg avis</h5>
     <ul>
-        <li>
+        <li class="flex-column">
              <a href="index.html">nyhedsbreve</a>
     <a href="index.html">facebook</a>
     <a href="index.html">Twitter</a>
@@ -236,7 +253,7 @@
         </li>
     </ul>
    
-    <img src="information_img" alt=" ">
+    <img class="avis_img" src="Skærmbillede 2023-01-27 125223.png" alt=" ">
 
     <h5>informatio hver morgen</h5>
     <label for="search"></label>
@@ -247,7 +264,7 @@
         køb avis
     </h5>
     <ul>
-        <li>
+        <li class="flex-column">
               <a href="index.html">få et godt tilbud</a>
     <a href="index.html">abbonment - selvbetjening</a>
     <a href="index.html">abonementbetingsler</a>
@@ -261,7 +278,7 @@
         on information
     </h5>
 <ul>
-    <li>
+    <li class="flex-column">
     <a href="index.html">redaktion</a>
     <a href="index.html">ibureueat</a>
     <a href="index.html">besøg butikken</a>
@@ -276,7 +293,9 @@
 </section>
 
 <address>
-        <p>ansvarshavend chefredatør rune Lykkeberg Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nesciunt similique neque nulla quod totam possimus fugiat asperiores deserunt eos!</p>
+        <p>Ansvarhavende chefredaktør: Rune Lykkeberg | dagbaldet information, store Kongesgade 40x, 1264 københavn: Telefon 3369 6000 | CBR: 63058416
+        Privatspolitik | cookies | Annoncering
+        </p>
         <button>skriv til os</button>
 </address>
 </body>
