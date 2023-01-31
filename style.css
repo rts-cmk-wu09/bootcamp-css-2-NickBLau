@@ -157,9 +157,9 @@ aside{
 }
 
 .subscription-button{
-    position: absolute;
-    left: 47%;
-    top: 179%;
+    position: relative;
+    right: 22%;
+    top: 35px;
 }
 
 .avis_img{
