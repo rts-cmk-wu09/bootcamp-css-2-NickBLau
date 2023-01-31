@@ -50,6 +50,13 @@ header{
     color: red;
 }
 
+.log-in{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
 .ad{
     width: 700px;
     height: 150px;
@@ -57,7 +64,6 @@ header{
     background-color: lightgray;
     
 }
-
 
 
 main{
@@ -90,8 +96,15 @@ aside{
 }
 
 .main{
-    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    position: relative;
+    bottom: 28px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
 }
+
+
 
 .flex section{
     margin-left: 5%;
@@ -146,7 +159,7 @@ aside{
 .subscription-button{
     position: absolute;
     left: 47%;
-    top: 180%;
+    top: 179%;
 }
 
 .avis_img{
@@ -169,14 +182,14 @@ aside{
 }
 .jakob-email{
     position: absolute;
-    bottom: 115px;
+    bottom: 112px;
     left: 95px;
 }
 
 .twitter{
     position: relative;
-    left: 180px;
-    bottom: 72px;
+    left: 176px;
+    bottom: 74px;
 }
 
 .z-index p:nth-of-type(4){
@@ -188,7 +201,7 @@ aside{
 .z-index p:nth-of-type(5){
 
     position: relative;
-    bottom: 43px;
+    bottom: 44px;
     left: 30px;
 }
 .z-index i:nth-of-type(1){
@@ -204,7 +217,7 @@ aside{
 .z-index i:nth-of-type(2){
     position: relative;
     left: 150px;
-    bottom: 54px;
+    bottom: 53px;
     background-color: cyan;
     color: white;
     font-size: large;
@@ -219,6 +232,74 @@ aside{
     padding: 2px;
     border-radius: 8px;}
 
+.z-index i:nth-of-type(4){
+    position: absolute;
+    background-color: darkblue;
+    left: 100px;
+}    
+
+.udland{
+    position: relative;
+    bottom: 25px;
+    color: red;
+}
+
+#facebook{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 700px;
+    top: 970px;
+}
+
+#facebook::after{
+    content: "del";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#twitter{
+    background-color: #1DA1F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 805px;
+    top: 970px;
+}
+
+#twitter::after{
+    content: "twitter";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#email{
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 910px;
+    top: 970px;
+}
+
+#email::after{
+    content: "email";
+    font-size: smaller;
+    margin-left: 5px;
+}
 
 section article aside{
     width: 300px;
